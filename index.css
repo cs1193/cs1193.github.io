@@ -21,3 +21,36 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+header {
+  position: relative;
+  margin: 60px 0;
+}
+
+header .title {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+header .sub-title {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+main {
+  position: relative;
+}
+
+
+footer {
+  margin-top: 50px;
+  font-size: 10px;
+}
+
+footer .disclaimer {
+  font-size: 10px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
